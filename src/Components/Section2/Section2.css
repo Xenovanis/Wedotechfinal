@@ -1,0 +1,23 @@
+.imgOfSection1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    filter: brightness(0.4);
+}
+.Container{
+    position: relative;
+    color: white;
+}
+.container1{
+    position: relative;
+    color: white;
+    text-align: end;
+}
+.container1 .firstOne{
+    display: flex;
+    align-items: center;
+}
+.container1 .secondtOne{
+    display: flex;
+    align-items: center;
+}
