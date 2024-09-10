@@ -1,0 +1,21 @@
+img{
+    height: auto;
+    width: 50%;
+    
+}
+.section3{
+    margin-top: 8rem;
+
+}
+.pubimg{
+    margin-left: 50px;
+}
+.pubText{
+   font-family: "Passion One", sans-serif;
+   font-weight: 700;
+   font-size: 118.5px;
+   margin-left: 46rem;
+   margin-top: -42.8rem;
+   line-height: 1.2;
+   color: #36494D;
+}
