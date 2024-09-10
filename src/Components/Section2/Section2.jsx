@@ -4,7 +4,7 @@ import '../Section2/Section2.css'
 
 export default function Section2() {
   return (
-    <div>
+    <div className='body'>
         <img src={img} alt="img" className='imgOfSection1' />
         <div className="Container"><h1>Let's grow together</h1>
         <h3>WeDoTech is a full-service media agency that helps businesses <br></br>
@@ -15,12 +15,12 @@ export default function Section2() {
         </div>
         <div className="container1">
             <div className="firstOne">
-            <h1>2K</h1><span>Global Happy Clients</span>
-            <h1>4K</h1><span>Projects Completed</span>
+            <h1>2K</h1><span className='span'>Global Happy Clients</span>
+            <h1 className='S1'>4K</h1><span className='span'>Projects Completed</span>
             </div>
             <div className="secondtOne">
-            <h1>21 </h1><span>Team members</span>
-            <h1>5</h1><span>Glorious Years</span>
+            <h1>21 </h1><span className='span'>Team members</span>
+            <h1 className='S2'>5</h1><span className='span'>Glorious Years</span>
             </div>
         </div>
       
