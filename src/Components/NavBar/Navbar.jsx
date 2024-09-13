@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import logo from "../../assets/Logo.svg"
-import menubar from '../../assets/Menubar.svg'
+// import menubar from '../../assets/Menubar.svg';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className="relative z-20">
       <div className=" flex items-center justify-between py-4 px-4 sm:py-8 sm:px-6 md:py-12 md:px-20">
         <div className="flex items-center">
-          <img src={logo} alt="Wedotech" className="h-8 w-auto sm:h-10" />
+          {/* <img src={logo} alt="Wedotech" className="h-8 w-auto sm:h-10" /> */}
         </div>
         <div className="hidden md:flex items-center space-x-6 lg:space-x-12 text-black-600">
           <a href="#" className="hover:text-black text-lg lg:text-xl">Services</a>
