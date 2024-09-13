@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import logo from "../../assets/Logo.svg"
-import menubar from "../../assets/Menubar.svg"
+import menubar from '../../assets/Menubar.svg'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
