@@ -1,19 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root{
 
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family:  "League Spartan", sans-serif;
+.global-padding {
+  padding-left: 50px;
+  padding-right: 50px;
 }
-
