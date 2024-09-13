@@ -5,7 +5,7 @@ import Section2 from '../../Components/Section2/Section2';
 import Section3 from '../../Components/Section3/Section3';
 import Blogpost from '../../Components/Blogpost/blogpost';
 import Footer from '../../Components/Footer/footer';
-
+import Section4 from '../../Components/Section4/Section4';
 
 
 const Home = () => {
@@ -18,6 +18,7 @@ const Home = () => {
      
       <Section2  />
       <Section3 />
+      <Section4/>
      <Blogpost />
      <Footer/>
     </div></div>

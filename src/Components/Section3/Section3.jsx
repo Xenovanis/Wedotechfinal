@@ -1,9 +1,10 @@
 
 import React from 'react';
 import img from '../../assets/transform-the-purple-color-to--53a178-color.png';
+import "./Section3.css"
 export default function Section3() {
   return (
-<div className="container mx-auto py-8 lg:py-16 ">
+<div className=" mx-auto py-8 lg:py-16  ">
       <div className="relative lg:flex lg:items-center">
         <div className="relative aspect-square w-full lg:w-1/2 max-w-2xl mx-auto">
           <img

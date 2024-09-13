@@ -5,7 +5,7 @@ const  Footer=()=> {
   return (
 
 
-    <footer className="mt-20 mb-10 rounded-xl text-white py-16 px-4 md:px-8 relative bg-black h-huge"  >
+    <footer className="mt-20 mb-10 rounded-xl  text-white py-16 px-4 md:px-8 relative bg-black h-huge"  >
     <div className="container mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="col-span-1 md:col-span-2">
@@ -22,8 +22,6 @@ const  Footer=()=> {
             <li><a href="/services" className="hover:underline">Services</a></li>
             <li><a href="/our-work" className="hover:underline">Our Work</a></li>
             <li><a href="/get-in-touch" className="hover:underline">Get In Touch</a></li>
-            <li><a href="/how-we-work" className="hover:underline">How we work</a></li>
-            <li><a href="/careers" className="hover:underline">Careers</a></li>
             <li><a href="/whats-new" className="hover:underline">what's New</a></li>
           </ul>
         </div>

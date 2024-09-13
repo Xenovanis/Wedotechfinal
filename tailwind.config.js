@@ -21,6 +21,7 @@ module.exports = {
       'logo-width': '128px',
       'menu-width': '32px',
       '50': '50px',
+      '500': '-50px',
       '100': '120px',
       '20': '20PX',
       '300': '-100PX',
