@@ -26,6 +26,7 @@ module.exports = {
       '20': '20PX',
       '300': '-100PX',
       '200': '-75PX',
+      '400' : '-400px'
     },
     padding: {
       '20px': '20px',
@@ -48,6 +49,8 @@ module.exports = {
     },
     colors: {
       'custom-gray': '#36494D',
+      'custom-darkgreen' : '#36494D',
+      'creamy' : '#F8F8EA'
     },
     lineHeight: {
       'snug': '1'

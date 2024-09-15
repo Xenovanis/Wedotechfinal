@@ -6,16 +6,16 @@ import logocercle from '../../assets/logo_cercle.png';
 
 export default function Section4() {
   return (
-    <div className="relative w-full h-screen overflow-hidden ">
+    <div className=" mt-20 relative h-screen ">
       <img
         src={sec4}
         alt="Sec4"
         className="w-full h-full object-cover  "
       />
       <div className="absolute inset-0 flex flex-col justify-center items-start ">
-        <div className="font-passion text-white font-extrabold text-extrasmall sm:text-tiny md:text-tiny2 lg:text-extratiny xl:text-extrasemihuge leading-snug tracking-tight mb-6 md:mb-8 lg:mb-10">
+        <div className="font-passion text-white font-bold text-extrasmall sm:text-tiny md:text-tiny2 lg:text-extratiny xl:text-extrasemihuge leading-snug tracking-tight mb-6 md:mb-8 lg:mb-10">
           WE DO TECH BETTER<br />
-          WE MAKE YOUR BUSINESS <br />
+          WE MAKE YOUR BUSINESS 
           GROW
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">

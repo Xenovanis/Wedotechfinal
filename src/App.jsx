@@ -1,12 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/HomePage/Home';
-import Navbar from './Components/NavBar/Navbar';
+import Service from './Pages/ServicePage/Service';
 
 function App() {
   return (
     <div>
-       <Navbar />
-      <Home />
+     <BrowserRouter>
+     <Routes>
+      <Route index element={<Home/>}/>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/service' element={<Service/>}/>
+     </Routes>
+     </BrowserRouter>
+     
     </div>
   );
 }

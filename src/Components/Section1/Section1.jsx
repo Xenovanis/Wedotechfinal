@@ -1,5 +1,6 @@
 import React from 'react';
 import TypingAnimation from '../../animation/typinganimation';
+import logocercle from '../../assets/logo_cercle.png'
 
 const Hero = () => {
   return (
@@ -13,10 +14,15 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-black-300 mb-8">
           We are a global, full-service media agency that grows ambitious brands through reinvention.
         </p>
-        <button className="px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition duration-300">
-          Get in touch
-        </button>
+      <a href="/service"> <button  className="border border-black  px-8 py-3 bg-black text-white rounded-full hover:bg-white hover:text-black transition duration-300">
+          Our service
+        </button> </a>
       </div>
+      <img
+            src={logocercle}
+            alt="Logo Circle"
+            className=" h-90  lg:block absolute right-20 bottom-0 h-36 w-auto mb-8 mr-8 lg:mb-16 lg:mr-16 xl:h-40 xl:mb-12 xl:mr-12"
+          />
     </div>
   );
 }

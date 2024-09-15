@@ -5,7 +5,7 @@ import image3 from '../../assets/blogpost1.png'
 
 const Blogpost = () => {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-24">
     <div className="flex flex-col md:flex-row justify-between items-stretch">
       {/* Card 1 */}
       <div className="w-full md:w-1/3 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-2xl mb-6 md:mb-0 md:mr-4">

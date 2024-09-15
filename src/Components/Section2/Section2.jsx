@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Section2() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 sm:p-6 md:p-8 lg:p-12 bg-white shadow-2xl rounded-3xl">
+    <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 p-4 sm:p-6 md:p-8 lg:p-12 bg-white shadow-2xl rounded-3xl " >
       <div className="flex flex-col justify-center text-black col-span-1 md:col-span-1 
                       items-center sm:items-start sm:justify-start sm:text-center">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4">
