@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const TypingAnimation = () => {
-  const words = ["Business", "مشروعك", "Projet", "Ihr Unternehmen"];
+  const words = ["Business", "مشروع", "Projet", "Unternehmen"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);

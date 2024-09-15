@@ -1,8 +1,9 @@
 import React from 'react'
 import Heroservice from '../../Components/heroservice/Heroservice'
 import Navbar from '../../Components/NavBar/Navbar'
-import Section3 from '../../Components/Section3/Section3'
+import Footer from '../../Components/Footer/footer';
 import Servicesdescription from '../../Components/Servicesdescription/Servicesdescription'
+
 const Service = () => {
   return (
     <div className="bg-creamy"> 
@@ -10,7 +11,9 @@ const Service = () => {
       <Heroservice/>
       
       <Servicesdescription />
-   
+
+      <div className='mr-50 ml-50 mt-20 mb-20'>
+      <Footer/> </div>
        </div>
   )
 }
