@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../../Components/Section1/Section1';
+import Section5 from '../../Components/Section5/Section5'
 import Navbar from '../../Components/NavBar/Navbar';
 import Section2 from '../../Components/Section2/Section2';
 import Section3 from '../../Components/Section3/Section3';
@@ -20,12 +21,12 @@ const Home = () => {
      <Navbardark/>
       <Hero />
      
-      <Section2  /> 
-      <Section3 /></div>
-      <Section4/>
-      <div className='global-padding'>
+      <Section2></Section2>
+      <Section3></Section3></div>
+      <Section4></Section4>
+      <Section5></Section5>
      <Blogpost />
-     <Footer/></div>
+     <Footer/>
     </div>
   );
 }

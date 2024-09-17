@@ -22,10 +22,11 @@ const Hero = () => {
         </a>
       </div>
       <img
-        src={logocercle}
-        alt={t("logoCircle")}
-        className="h-90 hidden md:block lg:block absolute right-20 bottom-0 h-36 w-auto mb-8 mr-8 lg:mb-16 lg:mr-16 xl:h-40 xl:mb-12 xl:mr-12 shadow-"
-      />
+  src={logocercle}
+  alt={t("logoCircle")}
+  className="h-90 hidden md:block lg:block absolute right-20 bottom-0 h-36 w-auto mb-8 mr-8 lg:mb-16 lg:mr-16 xl:h-40 xl:mb-12 xl:mr-12 shadow- animate-spin-slow"
+/>
+
     </div>
   );
 }
