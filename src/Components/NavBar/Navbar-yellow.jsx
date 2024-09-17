@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import logo from "../../assets/Logo.svg"
 import menubar from "../../assets/Menubar.svg"
 
-export default function Navbardark() {
+export default function Navbaryellow() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { t } = useTranslation()
 
@@ -12,7 +12,7 @@ export default function Navbardark() {
   const stopPropagation = (e) => { e.stopPropagation() }
 
   return (
-    <nav className="relative z-20 bg-transparent">
+    <nav className="relative z-20 bg-contactcolor">
       <div className="container mx-auto px-0 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4 px-4 sm:px-0">
           <div className="flex-shrink-0">
@@ -22,7 +22,7 @@ export default function Navbardark() {
           </div>
           <div className="hidden lg:flex items-center space-x-8">
             <a href="/service" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('services')}</a>
-            <a href="/contact" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('about')}</a>
+            <a href="#" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('about')}</a>
             <a href="/contact" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('getInTouchLink')}</a>
           </div>
           <button 

@@ -17,7 +17,7 @@ export default function Contacthero() {
        </p><img
   src={img}
   alt=""
-  className="hidden xl:block lg:block absolute lg:ml-200 lg:mt-3000 xl:ml-200 xl:mt-3000"
+  className="hidden xl:block lg:block absolute lg:ml-250 lg:mt-3000 xl:ml-250 xl:mt-3000"
 />
 
        <p className="text-lg mx-50 md:text-xl text-black-300 mb-8">
