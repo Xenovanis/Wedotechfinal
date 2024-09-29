@@ -7,12 +7,12 @@ export default function Component() {
   const { t } = useTranslation()
 
   const sections = [
-    { id: 1, title: t('strategyAndPlanning'), heading: t('frameworkForGrowth'), content: t('socialMediaContent') },
-    { id: 2, title: t('socialMediaManagement'), heading: t('fullFunnelStrategy'), content: t('socialMediaContent') },
-    { id: 3, title: t('socialMediaAdvertising'), heading: t('preciseRecommendations'), content: t('socialMediaContent') },
-    { id: 4, title: t('influencerMarketing'), heading: t('frameworkForGrowth'), content: t('socialMediaContent') },
-    { id: 5, title: t('websiteDevelopmentAndDesigning'), heading: t('frameworkForGrowth'), content: t('socialMediaContent') },
-    { id: 6, title: t('trainingAndConsulting'), heading: t('frameworkForGrowth'), content: t('socialMediaContent') },
+    { id: 1,title: t('socialMediaAdvertising'),  heading: t('socialMediaAdvertisingTitle'), content: t('socialMediaAdvertisingDescription') },
+    { id: 2, title: t('socialMediaManagement'), heading: t('socialMediaManagementTitle'), content: t('socialMediaManagementDescription') },
+    { id: 3, title: t('contentCreation'),heading: t('contentCreationTitle'), content: t('contentCreationDescription') },
+    { id: 4, title: t('Branding'),  heading: t('BrandingTitle'), content: t('BrandingDescription') },
+    { id: 5, title: t('websiteCreation'), heading: t('websiteCreationTitle'), content: t('websiteCreationDescription') },
+    { id: 6, title: t('seo'), heading: t('seoTitle'), content: t('seoDescription') },
   ]
 
   const [activeSection, setActiveSection] = useState(sections[0])

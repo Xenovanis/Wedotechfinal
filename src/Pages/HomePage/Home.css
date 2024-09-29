@@ -1,4 +1,8 @@
-.global-padding {
+.global-padding{
     padding-left: 50px;
     padding-right: 50px;
-  }
+   }
+
+   .global-margin{
+    margin-top: 20px;
+   }

@@ -4,7 +4,7 @@ import img from "../../assets/whatwedo.png"
 export default function Section5() {
   return (
 <div className='mt-12'>
-  <div className="mx-2 lg:mx-12 xl:mx-12 pt-10 bg-whatwedo_color h-auto rounded-xl flex flex-col items-center justify-start">
+  <div className="  pt-10 bg-whatwedo_color h-auto rounded-xl flex flex-col items-center justify-start">
     <img src={img} alt="" className='mt-16' />
     <div className='text-white mt-10  text-center text-md lg:text-start xl:text-start xl:max-w-2xl lg:text-2xl font-semibold xl-text-2xl lg:max-w-2xl '>
       Our mission is to help brands grow through a differentiated model and a performance mindset.

@@ -22,7 +22,7 @@ export default function Navbardark() {
           </div>
           <div className="hidden lg:flex items-center space-x-8">
             <a href="/service" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('services')}</a>
-            <a href="/contact" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('about')}</a>
+            <a href="" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('projects')}</a>
             <a href="/contact" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('getInTouchLink')}</a>
           </div>
           <button 
@@ -37,7 +37,7 @@ export default function Navbardark() {
       
       {/* Full-screen menu overlay */}
       <div 
-        className={`fixed inset-0 bg-white bg-opacity-95 z-50 transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed inset-0 bg-white  z-50 transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
         onClick={closeMenu}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
