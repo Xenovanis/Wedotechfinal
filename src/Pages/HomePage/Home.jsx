@@ -24,7 +24,7 @@ const Home = () => {
       <Section2></Section2>
       <Section3></Section3></div>
       <Section4></Section4>
-      <div className='global-padding global-margin'>
+      <div className='global-padding'>
       <Section5></Section5>
      <Blogpost />
      <Footer/>

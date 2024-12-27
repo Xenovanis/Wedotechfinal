@@ -73,7 +73,7 @@ export default function Contactinputs() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="phone-number" className="block font-semibold leading-6 text-md text-gray-400">
-              {t('phone_number')}
+              
             </label>
             <div className="relative mt-2.5">
               <div className="absolute inset-y-0 left-0 flex items-center">
@@ -85,9 +85,10 @@ export default function Contactinputs() {
                   name="country"
                   className="h-full rounded-3xl border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                 >
-                  <option>US</option>
-                  <option>CA</option>
-                  <option>EU</option>
+                  <option>MA</option>
+                  <option>FR</option>
+                  <option>ES</option>
+                  <option>DE</option>
                 </select>
                 <ChevronDownIcon
                   aria-hidden="true"

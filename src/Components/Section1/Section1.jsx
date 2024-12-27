@@ -18,7 +18,7 @@ const Hero = () => {
         <p className='text-lg md:text-xl text-black-300 mb-20'>
           {t('wetakecare')}
         </p>
-        <a href="/service"> 
+        <a onClick={() => window.open('https://calendly.com/wedotechagency/30min', '_blank', 'noopener,noreferrer')}> 
           <button className="border border-black px-8 py-3 bg-black text-white mb-40 rounded-full hover:bg-gray-200 hover:text-black transition duration-300">
             {t("ourService")}
           </button> 

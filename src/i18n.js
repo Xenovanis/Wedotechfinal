@@ -24,6 +24,10 @@ i18n
           globalHappyClients1: "Skilled employer",
           globalHappyClients2: "Current Projects",
           globalHappyClients3: "Global clients",
+          globalnum1:"30",
+          globalnum2:"30",
+          globalnu3:"30",
+          globalnum4:"30",
 
           // Section3
           findUs: "FIND US EVERYWHERE AND ANYWHERE YOU GO !!!",
@@ -215,7 +219,7 @@ i18n
     location_rabat: "Rabat Maroc",
     address_line1: "Rabat Hassan maroc",
     address_line2: "rue al mouahidine",
-    phone_number: "+21277895469",
+    phone_number: "Numéro de téléphone",
     view_location: "Voir l'emplacement",
 
           explore_roles: "EXPLOREZ LES RÔLES",

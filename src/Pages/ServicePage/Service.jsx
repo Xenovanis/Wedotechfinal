@@ -13,7 +13,7 @@ const Service = () => {
       <Heroservice/>
       <Servicesdescription />
       <Contactservice/>
-      <div className="px-20"> 
+      <div className='global-padding'> 
       <Footer/> </div> 
       </div>
        
