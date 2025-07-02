@@ -1,4 +1,3 @@
-import React from 'react';
 import TypingAnimation from '../../animation/typinganimation';
 import logocercle from '../../assets/logo_cercle.png'
 import { useTranslation } from 'react-i18next';
@@ -19,9 +18,11 @@ const Hero = () => {
           {t('wetakecare')}
         </p>
         <a onClick={() => window.open('https://calendly.com/wedotechagency/30min', '_blank', 'noopener,noreferrer')}> 
-          <button className="border border-black px-8 py-3 bg-black text-white mb-40 rounded-full hover:bg-gray-200 hover:text-black transition duration-300">
-            {t("ourService")}
-          </button> 
+        <button className="border border-black px-8 py-3 bg-black text-white mb-6 md:mb-40 rounded-full hover:bg-gray-200 hover:text-black transition duration-300">
+  {t("ourService")}
+</button>
+
+
         </a>
       </div>
       <img

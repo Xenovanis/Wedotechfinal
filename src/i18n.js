@@ -2,6 +2,7 @@ import i18n from "i18next"
 import LanguageDetector from "i18next-browser-languagedetector"
 import { initReactI18next } from "react-i18next"
 
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -19,7 +20,7 @@ i18n
 
           // Section2
           growTogether: "Let's grow together!",
-          companyDescription: "WeDoTech is a full-service media agency that helps businesses drive sustainable growth in the new world of marketing. With a rich heritage in performance, we apply that mindset to everything we do; brand planning, strategy, integrated media, social, creative, and data.",
+          companyDescription: "At Wedotech, we craft strategies that elevate your online presence and drive real results.",
           globalHappyClients: "Satisfied Clients",
           globalHappyClients1: "Skilled employer",
           globalHappyClients2: "Current Projects",
@@ -37,16 +38,20 @@ i18n
           makeBusinessGrow: "WE MAKE YOUR BUSINESS GROW",
           getInTouch: "Get in touch",
 
+        // Section 5
+          WhatWeDo : "At Wedotech, we craft strategies that elevate your online presence and drive real results.",
+
+
           // Blogpost
-          businessSuccess: "How to make my business successful",
-          marketingStrategy: "What's the most used marketing strategy nowadays",
-          aiMinds: "AI Minds: Blowing Bots that we provide",
+          businessSuccess: " Ai minds Blowing Bots that we provide",
+          marketingStrategy: "Photograpgy And videography ideas",
+          aiMinds: "discovering all ADS cultures with us",
           readMore: "Read more",
 
           // Footer
           footerDescription: "We are a global, full-service media agency that grows ambitious brands through reinvention.",
           quickLinks: "Quick Links",
-          services: "Services",
+          
           ourWork: "Our Work",
           getInTouchLink: "Get In Touch",
           whatsNew: "What's New",
@@ -60,30 +65,30 @@ i18n
           projects: "Projects",
 
           //herosection servicepage:
-          services: "Services",
+          
           integratedMarketingSolutions: "Integrated marketing solutions that help brands grow.",
           teamCommitment: "Our team is committed to gaining a deep understanding of our clients' business goals. In order to deliver real business impact, whether it's across Strategy & Planning and Media, or Analytics and Organic Performance, we work closely with our clients to develop tailored marketing solutions that set them up for success.",
 
           // Service description
           contentCreation: "Content Creation",
           contentCreationTitle: "Create, Captivate, Connect",
-          contentCreationDescription: "Our content creation services are designed to captivate and engage your audience. We produce high-quality visuals, videos, and well-designed graphic content tailored to your brand's voice and objectives, using the best equipment and tools available in today's market. Whether you're looking for blog posts, social media content (Reels, Posts, Stories), or promotional videos, we deliver creative assets that drive engagement and build lasting connections.",
+          contentCreationDescription: "High-quality visuals, videos, and graphics tailored to your brand’s voice — perfect for reels, stories, blog posts, and more.",
 
           socialMediaManagement: "Social Media Management",
           socialMediaManagementTitle: "Effortless Social Media Mastery",
-          socialMediaManagementDescription: "Managing your social media presence can be overwhelming, but we make it simple. Our team handles everything from content scheduling to community engagement, ensuring your social profiles stay active and relevant. We keep your audience informed and engaged, growing your brand's online presence and loyalty while giving you the professional touch.",
+          socialMediaManagementDescription: "We manage your pages, schedule content, engage with your audience, and grow your presence so you don’t have to.",
 
           socialMediaAdvertising: "Social Media Advertising",
           socialMediaAdvertisingTitle: "Targeted Ads, More Results",
-          socialMediaAdvertisingDescription: "Reach your target audience more effectively with our social media advertising solutions. We create and manage campaigns across major platforms like Facebook, Instagram, and TikTok to ensure your message gets seen by the right people. Our data-driven approach helps you maximize your ad spend and achieve measurable results.",
+          socialMediaAdvertisingDescription: "Our ad experts create and manage high-converting campaigns on Facebook, Instagram, TikTok and more — optimized for ROI.",
           
-          websiteCreation: "Website Creation and Desigining",
+          websiteCreation: "Website Creation ",
           websiteCreationTitle: "Your Digital Home, Perfected",
           websiteCreationDescription: "Your website is the cornerstone of your digital presence. We design and develop responsive, user-friendly websites that align with your brand and drive conversions. From e-commerce to portfolio sites, we build websites that not only look great but also perform exceptionally well in terms of functionality and SEO.",
 
           seo: "SEO",
           seoTitle: "Get Found, Get Noticed",
-          seoDescription: "Our SEO services help your business get found online by optimizing your website for search engines. We conduct in-depth keyword research, on-page optimization, and off-page strategies to improve your ranking on Google and other search engines, driving organic traffic to your site and increasing your visibility.",
+          seoDescription: "Boost your visibility with smart search engine optimization strategies tailored to your market and industry.",
 
           Branding: "Branding",
           BrandingTitle: "Unleash Your Authentic Voice, Stand out and Rule the market",
@@ -114,7 +119,7 @@ i18n
     location_rabat: "Rabat Morocco",
     address_line1: "Rabat Hassan morocco",
     address_line2: "al mouahidine street",
-    phone_number: "+21277895469",
+  
     view_location: "View location",
 
           explore_roles: "EXPLORE ROLES",
@@ -165,7 +170,7 @@ i18n
           projects: "Projects",
 
            // Hero.service
-          services: "Services",
+         
           integratedMarketingSolutions: "Solutions marketing intégrées qui aident les marques à se développer.",
           teamCommitment: "Notre équipe s'engage à acquérir une compréhension approfondie des objectifs commerciaux de nos clients. Afin de générer un réel impact commercial, que ce soit dans les domaines de la Stratégie & Planification et des Médias, ou de l'Analyse et de la Performance Organique, nous travaillons en étroite collaboration avec nos clients pour développer des solutions marketing sur mesure qui les préparent au succès.",
 
@@ -219,7 +224,7 @@ i18n
     location_rabat: "Rabat Maroc",
     address_line1: "Rabat Hassan maroc",
     address_line2: "rue al mouahidine",
-    phone_number: "Numéro de téléphone",
+    
     view_location: "Voir l'emplacement",
 
           explore_roles: "EXPLOREZ LES RÔLES",

@@ -1,8 +1,8 @@
-import React, { useState, useRef } from "react"
+"use client"
 import { useTranslation } from 'react-i18next'
 import SectionList from './SectionList'
 import SectionContent from './SectionContent'
-
+import { useState,useRef } from 'react'
 export default function Component() {
   const { t } = useTranslation()
 

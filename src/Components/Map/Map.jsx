@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import img from '../../assets/mapbackground.png';
 
@@ -25,16 +25,22 @@ export default function Map() {
               </div>
               <div className="mt-4 sm:mt-0 text-right">
                 <p className="text-gray-600">
-                  {t('address_line1')}
+                  {'Avenue Moulay Hassan'}
                   <br />
-                  {t('address_line2')}
+                  {t('Hassan, Rabat')}
                 </p>
                 <a href="tel:+21277895469" className="text-gray-600 block mt-1">
-                  {t('phone_number')}
+                  {'+212 6 97 74 19 37'}
                 </a>
-                <button className="bg-black text-white px-6 py-2 rounded-full mt-2 font-semibold hover:bg-gray-800 transition-colors">
-                  {t('view_location')}
-                </button>
+                <a 
+  href="https://maps.app.goo.gl/yEQqv3rx3diRrTuG6" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="bg-black text-white px-6 py-2 rounded-full mt-2 font-semibold hover:bg-gray-800 transition-colors">
+    {t('view_location')}
+  </button>
+</a>
               </div>
             </div>
           </div>

@@ -1,5 +1,12 @@
-.global-padding{
-    padding-left: 50px;
-    padding-right: 50px;
-   }
-
+.global-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .global-padding {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  

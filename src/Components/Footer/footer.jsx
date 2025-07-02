@@ -34,7 +34,8 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-2">{t('callUs')}</h4>
-              <p>{t('phoneNumber')}</p>
+              <p>{'+212 6-97-74-19-37'}</p>
+              <p>{'+212 6-19-74-72-55'}</p>
             </div>
           </div>
         </div>

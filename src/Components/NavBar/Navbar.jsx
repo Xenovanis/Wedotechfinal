@@ -21,8 +21,9 @@ export default function Navbaryellow() {
             </a>
           </div>
           <div className="hidden lg:flex items-center space-x-8">
+          <a href="/home" className="text-black hover:text-gray-600 text-lg transition-colors duration-200">{t('Home')}</a>
             <a href="/service" className="text-white hover:text-gray-600 text-lg transition-colors duration-200">{t('services')}</a>
-            <a href="#" className="text-white hover:text-gray-600 text-lg transition-colors duration-200">{t('projects')}</a> 
+            {/* <a href="/Projects" className="text-white hover:text-gray-600 text-lg transition-colors duration-200">{t('projects')}</a>  */}
             <a href="/contact" className="text-white hover:text-gray-600 text-lg transition-colors duration-200">{t('getInTouchLink')}</a>
           </div>
           <button 
