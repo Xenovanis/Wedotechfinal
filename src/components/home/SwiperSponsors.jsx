@@ -5,6 +5,7 @@ import googleLogo from "../../assets/logo/google.png";
 import microsoftLogo from "../../assets/logo/microsoft.png";
 import metaLogo from "../../assets/logo/meta.png";
 
+
 const SwiperSponsors = () => {
   const logos = [
     { name: "MongoDB", logo: mongodbLogo },

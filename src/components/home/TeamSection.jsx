@@ -3,7 +3,7 @@ import ayoub from "../../assets/team/ayoub.svg";
 // import amari from "../../assets/team/essa.svg";
 
 // import hamid from "../../assets/team/hamid.svg";
-import simo from "../../assets/team/Simo.svg";
+import simo from "../../assets/team/simo.svg";
 // import omar from "../../assets/team/omar.svg";
 // import amine from "../../assets/team/amine.svg";
 // import smallLogo from "../../assets/team/smallLogo.png";
