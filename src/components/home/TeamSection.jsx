@@ -1,7 +1,7 @@
 import React from 'react';
 import ayoub from "../../assets/team/ayoub.svg";
 // import amari from "../../assets/team/essa.svg";
-// import aymane from "../../assets/team/aymane.svg";
+
 // import hamid from "../../assets/team/hamid.svg";
 import simo from "../../assets/team/Simo.svg";
 // import omar from "../../assets/team/omar.svg";
@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "SimohMohamed Elkhalfi",
     role: "Co-Founder",
-    image: simo,
+    image: simo,  
    },
   // {
   //   name: "Redoine Elmfadel",
