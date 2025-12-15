@@ -1,13 +1,13 @@
 import React from 'react';
 import ayoub from "../../assets/team/ayoub.svg";
-import amari from "../../assets/team/essa.svg";
-import aymane from "../../assets/team/aymane.svg";
-import hamid from "../../assets/team/hamid.svg";
+// import amari from "../../assets/team/essa.svg";
+// import aymane from "../../assets/team/aymane.svg";
+// import hamid from "../../assets/team/hamid.svg";
 import simo from "../../assets/team/Simo.svg";
-import omar from "../../assets/team/omar.svg";
-import amine from "../../assets/team/amine.svg";
-import smallLogo from "../../assets/team/smallLogo.png";
-import user from "../../assets/team/user.png";
+// import omar from "../../assets/team/omar.svg";
+// import amine from "../../assets/team/amine.svg";
+// import smallLogo from "../../assets/team/smallLogo.png";
+// import user from "../../assets/team/user.png";
 
 const teamMembers = [
   {
